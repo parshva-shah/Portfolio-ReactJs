@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.App {
+  overflow: hidden;
+  background-color: #030b16;
+  /* background: linear-gradient(65deg, white 42%, #030b16 25%); */
+  /* background-image: url("https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;*/
+}
+
+.RightDiv {
+  margin: 0;
+  min-height: 500px;
+  height: 70vh;
+  padding: 0;
+}
+
+.LeftDiv {
+  background-image: url(./assets/3.png);
+  margin: 0;
+  min-height: 600px;
+  height: 85.5vh;
+  padding: 0;
+  /* background-image: url(); */
+  background-Repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: "relative";
+}
+
+.CenterDiv {
+  background-image: url(./assets/3.png);
+  margin: 0;
+  min-height: 200px;
+  height: 85.5vh;
+  padding: 0;
+  background-Repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: "relative";
+  display: none;
+}
+
+.introdiv {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.hello {
+  margin-left: 25px;
+  font-size: 30px;
+  /* padding-bottom: 10px; */
+  color: white;
+  /* font-weight:; */
+}
+
+.hello1 {
+  margin-left: 25px;
+  /* padding-bottom: 10px; */
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  opacity: 0.4;
+  line-height: 110%;
+}
+
+.intro {
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif; */
+  margin-left: 20px;
+  font-size: 95px;
+  font-weight: 900;
+  line-height: 100px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.socmed {
+  position: absolute;
+  left: 1%;
+  top: 92%;
+  margin-left: 110px;
+  transform: translate(-50%, 0);
+}
+
+.socmed a {
+  margin-left: 30px;
+}
+
+.socmed img {
+  height: 42px;
+}
+
+@media (max-width: 990px) {
+  .LeftDiv {
+    display: none;
+  }
+  .App {
+    background-color: white;
+    /* background-image: url(./assets/3.png); */
+    /* background-repeat: no-repeat; */
+  }
+  .hello1 {
+    font-size: 49px;
+    line-height: 110%;
+    color: #030b16;
+    opacity: 0.4;
+    /* text-align: center; */
+  }
+  .hello {
+    color: #030b16;
+    font-weight: bolder;
+    /* text-align: center; */
+  }
+  .intro {
+    font-size: 80px;
+    line-height: 100%;
+    color: #030b16;
+    /* text-align: center; */
+  }
+  .socmed {
+    /* left: 10%; */
+    top: 90%;
+  }
+  .socmed a {
+    margin-left: 15px;
+    color: #030b16;
+    filter: invert(75%);
+  }
+  .RightDiv {
+    height: 84vh;
+  }
+  .CenterDiv {
+    background-image: url(./assets/3.png);
+    margin: 0;
+    /* min-height: 200px; */
+    height: 84vh;
+    padding: 0;
+    background-Repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: "relative";
+    display: inline;
+  }
+}
+
+@media (max-width: 400px){
+  .intro{
+    font-size: 60px;
+  }
+  .hello1{
+    font-size: 40px;
+  }
+}

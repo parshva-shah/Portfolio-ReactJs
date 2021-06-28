@@ -1,0 +1,47 @@
+.who {
+    background-color: #242424;
+    padding: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.who--heading > h1{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 75px;
+}
+
+.who--heading{
+    margin: 100px;
+}
+.who--heading > p{
+    color: white;
+    margin-bottom: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.who--why > h1{
+    color: white;
+    font-size: 40px;
+}
+.who--why > p{
+    color: white;
+    margin-bottom: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.who--why > img{
+    position: fixed;
+}
+
+.who--why{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
